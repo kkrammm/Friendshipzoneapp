@@ -1,38 +1,159 @@
-.banner
-{
-    background-image: url(../../../assets/img/banner.jpg);
-    height: 800px;
-    background-position: center top;
-    background-size: cover;
-}
-.content
-{
-    top:1%;
-    left:8%;
-    position: absolute;
-    font-size: 25px;
-}
-.content h1
-{
-    color: rgb(216, 235, 240);
-    font-size: 80px;
-    font-weight:bold;
-    
-} 
-.content a
-{
-    text-decoration: none;
-    font-family:Georgia;
-    color:rgb(15, 15, 255);
-    background-color: aliceblue;
-    padding: 10px 13px;
+
+  
+  .main h2{
+    color:rgb(3, 44, 244);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-decoration:overline;
+    text-decoration-color: black;
+    margin-left: 39%;
+    margin-top: 3%;
+  }
+  .main .image{
+    background-image: url('../../../assets/img/friend2.jpg');
+    height: 500px;
+    width:1000px;
+    margin-left: 15%;
     border-radius: 10px;
-}  
-.content a:hover
-{
-    background-color: var(--primary-color);
-    color: #fff;
-} 
+    background-size: cover;
+  }
+  .main p{
+     color:black;
+     font-size: larger;
+     font-style: italic;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-top: 3%;
+     margin-left: 20%;
+  }
+  .main button{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  #55c2da;
+    width: 90px;
+    border-radius: 10px ;
+    margin-left: 70%;
+    margin-top: 2%;
+  }
+  .main button:hover{
+    background-color: aliceblue;
+  }
+  .group h2{
+    font-family:fantasy;
+    text-decoration: initial;
+    color: rgb(6, 182, 44);
+    font-size: xx-large;
+    margin-left: 42%;
+    margin-top: 4%;
+  }
+  .group .img1 {
+    background-image: url('../../../assets/img/img1.jpg');
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    border-radius: 25px;
+    margin-left: 7%;
+    margin-top: 5%;
+  }
+  .group h3{
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
+  .group .movie h3{
+    margin-left: 27%;
+    margin-top: 2%;
+  }
+  .group .advent h3{
+    margin-left: 27%;
+    margin-top: 2%;
+  }
+  .group .innov h3{
+    margin-left: 27%;
+    margin-top: 2%;
+  }
 
+  .group .img2 {
+    background-image: url('../../../assets/img/img2.jpg');
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    border-radius: 25px;
+    margin-left: 7%;
+    margin-top: 5%;
+  }
+ 
+  .group .movie button{
+    color: rgb(1, 20, 20);
+    background-color: rgb(106, 204, 249);
+    border-radius: 10px;
+    width: 100px;
+    font-family:cursive;
+    margin-top: 3%;
+    margin-left: 55%;
+  }
 
+  .group .advent button{
+    color: rgb(1, 20, 20);
+    background-color: rgb(106, 204, 249);
+    border-radius: 10px;
+    width: 100px;
+    font-family:cursive;
+    margin-top: 3%;
+    margin-left: 55%;
+  }
+
+  .group .innov button{
+    color: rgb(1, 20, 20);
+    background-color: rgb(106, 204, 249);
+    border-radius: 10px;
+    width: 100px;
+    font-family:cursive;
+    margin-top: 3%;
+    margin-left: 55%;
+  }
+
+  .group .img3 {
+    background-image: url('../../../assets/img/img3.jpg');
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    border-radius: 25px;
+    margin-left: 7%;
+    margin-top: 5%;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex-basis: calc(33.33% - 20px);
+  }
+  .group .innov p{
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+  }
+
+  .group .advent p{
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;  
+  }
+  .group .movie p{
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+  }
